@@ -12,8 +12,8 @@ headers = {
 base_folder = os.path.abspath(os.path.dirname(sys.argv[0]))+'/Ход строительства/'
 os.system('clear')
 bulk_id = input('Введите цифры из адреса хода строительства.\r\n'
-                'Например 4053 из https://www.pik.ru/sp/progress/4053\r\n'
-                'Что соответствует проекту Саларьево Парк корпус 18.1: ')
+                'Например 4132 из https://www.pik.ru/sp/progress/4132\r\n'
+                'Что соответствует проекту Саларьево Парк корпус 25: ')
 if bulk_id == '':
     print('Пустой номер')
     sys.exit()
